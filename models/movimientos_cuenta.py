@@ -2,7 +2,7 @@ class MovimientoCuenta:
     def __init__(self, id: int, cuenta: int, tipo_movimiento: str, monto: float):
         self.id = id
         self.cuenta = cuenta
-        self.tipo_movimiento = tipo_movimiento  # This should match the keyword argument
+        self.tipo_movimiento = tipo_movimiento 
         self.monto = monto
 
     def __repr__(self):
